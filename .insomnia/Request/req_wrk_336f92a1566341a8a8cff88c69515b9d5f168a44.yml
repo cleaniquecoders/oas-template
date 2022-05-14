@@ -1,0 +1,24 @@
+_id: req_wrk_336f92a1566341a8a8cff88c69515b9d5f168a44
+type: Request
+parentId: wrk_336f92a1566341a8a8cff88c69515b9d
+modified: 1652538036701
+created: 1652529952127
+url: "{{ base_url }}/user"
+name: Returns user list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+metaSortKey: -1652529952127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

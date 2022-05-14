@@ -1,0 +1,26 @@
+_id: env_env_638e4018f0a4d9cb39f89df4e0b413a09ee946e1_sub
+type: Environment
+parentId: env_638e4018f0a4d9cb39f89df4e0b413a09ee946e1
+modified: 1652538031249
+created: 1652528750540
+name: OpenAPI env
+data:
+  scheme: https
+  base_path: /api
+  version: v1
+  host: api-publisher.test
+  xApiKey: xelLq8Ic1f6W3uA29SM9HxPKNPKAsdou17X3HPhw
+  bearerToken: xelLq8Ic1f6W3uA29SM9HxPKNPKAsdou17X3HPhw
+  email: winona.considine@example.net
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - version
+    - host
+    - xApiKey
+    - bearerToken
+    - email
+color: null
+isPrivate: false
+metaSortKey: 1652528750540

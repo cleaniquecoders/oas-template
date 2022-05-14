@@ -1,0 +1,25 @@
+_id: req_wrk_336f92a1566341a8a8cff88c69515b9d4bdac78d
+type: Request
+parentId: wrk_336f92a1566341a8a8cff88c69515b9d
+modified: 1652538036990
+created: 1652528750538
+url: "{{ base_url }}/user/{{ email }}"
+name: Returns user information based on email address
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1652528750538
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
